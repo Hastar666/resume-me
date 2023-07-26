@@ -1,0 +1,23 @@
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-family: "Libre Baskerville", serif;
+  margin-top: 100px;
+  font-size: 6.52rem;
+}
+.text-body-emphasis {
+  --bs-text-opacity: 1;
+  color: #66bfbf !important;
+}
+.text-bg-primary {
+  color: #164b60 !important;
+  --bs-bg-opacity: 1;
+  background-color: rgba(
+    var(--bs-secondary-bg-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+}
+.feature-icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.75rem;
+}
